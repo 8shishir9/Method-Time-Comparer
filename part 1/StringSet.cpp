@@ -17,6 +17,7 @@ if(array!=nullptr){
 StringSet::StringSet(const StringSet &src){
 *this=src;
 }
+
 StringSet& StringSet::operator=(const StringSet &src ){
 if (&src!=this){
 if(this->array){
@@ -28,7 +29,7 @@ if(this->array){
 this->numStrings=   src.numStrings;
 
 array=new std::string[src.numStrings];
-for(size_t i=0u;i<=numStrings;i++){
+for(size_t i=0u;i<numStrings;i++){
     this->array[i]=src.array[i];
 }
 
@@ -52,7 +53,7 @@ if (!f.is_open()) {
     f.clear();
 f.seekg(0, std::ios::beg);
      size_t i{0};
-    while (f,array[i],' '){
+    while (getline(f,array[i],' ')){
         i++;
     }                                               
     
@@ -67,11 +68,11 @@ return numStrings;
 }
 
 std::string StringSet::operator[](size_t i){
-if(i>numStrings){
+if(i>=numStrings){
     return "";
-}
+}else{
 return array[i];
-
+}
 }
 
 }
