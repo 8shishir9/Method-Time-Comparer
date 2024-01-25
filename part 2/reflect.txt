@@ -1,0 +1,25 @@
+//==============================================
+// Name:           Shisir Bastakoti
+// Student Number: 1395758221
+// Email:          sbastakoti@myseneca.ca
+// Section:        NHH
+// Date:           2024-1-24
+// Workshop:       Workshop2
+//==============================================
+// reflect.txt
+//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+
+By completing this workshop, i got to learn an important library to measure time in c++. We can measure the efficiency of any blocks of code using this library.
+Also, I learnt about the rule of five(an upgrade from the rule of three ).Although, a mere optimization rather than a necessity , rule of five involves the design 
+and implementation of the move and move asssignment operator which are resposnible to safely cut and paste object data from one to another without memory leaks.
+I modified the implementaion of std::move function to move while managing the dynamically allocated resources inside the class.
+
+The reason move operator is so faster than copy is because it involves only pointer allocation and deallocation while copy involves transferring everything by value.
+
+
+
+Yes , I was thinking of that when I was writing the code and rereading the whole file seemed a little bit inefficient .
+we can do that by using a temporary vector of strings to collect data and size first and then just transfer to the new dynamically allocated array .
+
+I found that system clock is affected by other variables like ddaylight savings, time zone synchronization etc while steady clock maintains an absolute ticks between the intervals .
