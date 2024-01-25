@@ -31,7 +31,7 @@ endTime=std::chrono::steady_clock::now();
 }
 
 std::ostream& operator<<(std::ostream& out,TimedEvents& t){
-  std::cout<<" --------------------------\n";
+  std::cout<<"--------------------------\n";
 std::cout <<"Execution Times:\n--------------------------\n";
 /*for(Event e:t.events){
     std::cout<<std::setw(21)<<std::left<<e.eventName<<" "<<std::setw(13)<<std::right<<e.duration.count()<<" "<<e.unit<<
@@ -44,6 +44,7 @@ for (auto i = 0u; i < t.numRecords; ++i) {
       std::cout << std::setw(13) << std::right << t.events[i].duration.count();
       std::cout << " " << t.events[i].unit << std::endl;
     }
+    std::cout<<"--------------------------\n";
     return out;
 }
 

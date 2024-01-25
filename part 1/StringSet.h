@@ -12,6 +12,7 @@ StringSet();
 ~StringSet();
 StringSet(const StringSet &src);
 StringSet& operator=(const StringSet &src );
+
 StringSet(char* filename);
 size_t size();
 std::string operator[](size_t);

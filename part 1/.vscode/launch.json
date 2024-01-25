@@ -5,11 +5,11 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "args": ["gutenberg_shakespeare"],
+      "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/basta/OneDrive/Desktop/Univers/cloned/OOP345-Workshops/w2/WS02/part 1",
-      "program": "c:/Users/basta/OneDrive/Desktop/Univers/cloned/OOP345-Workshops/w2/WS02/part 1/w.exe",
+      "program": "c:/Users/basta/OneDrive/Desktop/Univers/cloned/OOP345-Workshops/w2/WS02/part 1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

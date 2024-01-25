@@ -74,5 +74,4 @@ if(i>=numStrings){
 return array[i];
 }
 }
-
 }
