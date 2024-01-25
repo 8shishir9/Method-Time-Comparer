@@ -3,7 +3,7 @@
 This program is desgined to compare the execution time between different methods especially ones belonging to the "RULE OF THREE" while creating a class involving dynamic memory allocation.
 
 
-#LICENSE
+# LICENSE
 MIT License
 
 Copyright (c) 2024 Shisir Bastakoti
